@@ -12,26 +12,34 @@
 > **Note:** このリポジトリは、課題として提出した成果物単体ではなく、**開発過程で書かれた設計メモ・試行コード・レビューログ・pre-review ツールまでを含む「開発プロセス込み」のリポジトリ**である。提出用のクリーンな実装のみは [submit-real/](submit-real/) 配下を参照。
 
 ### Pre Research
-wrote: [minishellのための知識](https://zenn.dev/ayusa/articles/22a73b6875639b)
+このプロジェクトの実装前に、必要知識を調べた記録です。
+この課題を正統に理解したと自信を持てるように、「分からないことは全て調べる」を徹底しています。
+[minishellのための知識](https://zenn.dev/ayusa/articles/22a73b6875639b)
 
 ## Table of Contents
 
-1. [Repository Layout](#repository-layout)
-2. [Description](#description)
-   - [Supported features](#supported-features)
-   - [implemented Built-in commands](#implemented-built-in-commands)
-3. [Instructions](#instructions)
-4. [Development logs & project explanation](#development-logs--project-explanation)
-   - [working/](#working)
-   - [algorithm memo](#algorithm-memo)
-   - [test](#test)
-     - [tester](#tester)
-     - [valgrind](#valgrind)
-   - [Agentic Review (pre-review pipeline)](#agentic-review-pre-review-pipeline)
-5. [Git / GitHub 運用](#git--github-運用)
-6. [Resources](#resources)
-   - [reference](#reference)
-   - [AI Usage](#ai-usage)
+- [Repository Layout](#repository-layout)
+- [Description](#description)
+    - [Supported features](#supported-features)
+    - [implemented Built-in commands](#implemented-built-in-commands)
+  - [Instructions](#instructions)
+- [Development logs \& project explanation](#development-logs--project-explanation)
+  - [working/](#working)
+  - [algorithm memo](#algorithm-memo)
+    - [AST](#ast)
+    - [heredoc](#heredoc)
+    - [pipe](#pipe)
+    - [その他](#その他)
+  - [test](#test)
+    - [tester](#tester)
+    - [valgrind](#valgrind)
+  - [Agentic Review (pre-review pipeline)](#agentic-review-pre-review-pipeline)
+  - [Git / GitHub 運用](#git--github-運用)
+  - [Resources](#resources)
+    - [reference](#reference)
+    - [AI Usage](#ai-usage)
+      - [実装前](#実装前)
+      - [test](#test-1)
 
 # Repository Layout
 
